@@ -3,11 +3,11 @@ import Input from "./input"
 import {Button} from "react-bootstrap";
 
 function Login(){
-    return <contactform className="form">
+    return <div className="form">
         <Input type="text" placeholder="Username"/>
         <Input type="text" placeholder="Password"/>
         <Button type="submit">Login</Button>
-        </contactform>
+        </div>
 }
 
 export default Login;

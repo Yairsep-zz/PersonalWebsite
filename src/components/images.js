@@ -10,13 +10,13 @@ const imgStyle = {
 }
 
 function FaceBookLogo() {
-    return <img className={"FaceBookLogo"} style={imgStyle} src={facebookLogo} />
+    return <img className={"FaceBookLogo"} style={imgStyle} src={facebookLogo} alt={"FaceBookLogo"}/>
 }
 function GithubLogo() {
-    return <img className={"GithubLogo"} style={imgStyle} src={githubLogo} />
+    return <img className={"GithubLogo"} style={imgStyle} src={githubLogo} alt={"GithubLogo"}/>
 }
 function InstagramLogo() {
-    return <img className={"InstagramLogo"} style={imgStyle} src={instagramLogo} />
+    return <img className={"InstagramLogo"} style={imgStyle} src={instagramLogo} alt={"InstagramLogo"}/>
 }
 export {FaceBookLogo,GithubLogo, InstagramLogo};
 
